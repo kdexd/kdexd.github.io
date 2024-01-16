@@ -1,0 +1,6 @@
+@inproceedings{selvaraju2021casting,
+    title     = {{CASTing your model: Learning to Localize Improves Self-supervised Representations}},
+    author    = {Selvaraju, Ramprasaath R and Desai, Karan and Johnson, Justin and Naik, Nikhil},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year      = {2021}
+}

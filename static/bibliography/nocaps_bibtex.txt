@@ -1,0 +1,6 @@
+@inproceedings{agrawal2019nocaps,
+    title     = {{nocaps: novel object captioning at scale}},
+    author    = {Agrawal, Harsh and Desai, Karan and Wang, Yufei and Chen, Xinlei and Jain, Rishabh and Johnson, Mark and Batra, Dhruv and Parikh, Devi and Lee, Stefan and Anderson, Peter},
+    booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+    year      = {2019}
+}

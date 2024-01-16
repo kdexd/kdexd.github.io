@@ -1,0 +1,6 @@
+@inproceedings{elbanani2023lgssl,
+    title     = {{Learning Visual Representations via Language-Guided Sampling}},
+    author    = {El Banani, Mohamed and Desai, Karan and  Johnson, Justin}
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year      = {2023}
+}
