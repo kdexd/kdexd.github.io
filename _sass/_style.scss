@@ -1,0 +1,94 @@
+// Font sizes
+$line-height: 1.5em;
+$card-title-fs: 1.25em;
+$card-desc-fs: 1em;
+
+// Build Variables, don't touch
+$max-width: 1000px;
+$med-width: 700px;
+$small-width: 500px;
+
+/*
+ * Basic
+ */
+
+body {
+    font-family: "Charter";
+    height: 100%;
+    line-height: $line-height;
+    margin: 0;
+}
+
+h1 {font-size: 2.5em}
+h2 {font-size: 2.0em}
+
+a {
+    color: #388e3c;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
+hr {
+    margin: 1.5em 0 1.5em 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+img {
+    width: 100%;
+}
+
+.fab, .ai {margin-right: 0.2em}
+
+/************************************************
+ |  Research                                    |
+ ************************************************/
+
+.card-row {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card-title {
+    font-size: $card-title-fs;
+    font-weight: 600;
+}
+
+.card-desc {
+    font-size: $card-desc-fs;
+    margin-top: 2em;
+}
+
+.paper-link {
+    margin-left: 1em;
+    line-height: $line-height + 1em;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 100%;
+    }
+}

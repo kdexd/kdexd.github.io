@@ -1,0 +1,28 @@
+title: Karan Desai
+author:
+  name: Karan Desai
+  avatar: /static/img/kd4.jpeg
+  location: Ann Arbor, MI, United States
+  cv: /kdexd_cv.pdf
+  scholar: 0iFtFKEAAAAJ
+  github: kdexd
+  twitter: kdexd
+
+email: kdexd@umich.edu
+description: PhD Student, University of Michigan.
+
+url: "https://kdexd.github.io"
+baseurl: ""
+
+# build settings
+markdown: kramdown
+include: ['_pages']
+plugins_dir:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+google_analytics_id: UA-120523111-1
+google_site_verification: googleca51599afffe0f7e.html

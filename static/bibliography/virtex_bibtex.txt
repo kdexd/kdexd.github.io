@@ -1,0 +1,6 @@
+@inproceedings{desai2021virtex,
+    title     = {{VirTex: Learning Visual Representations from Textual Annotations}},
+    author    = {Desai, Karan and Johnson, Justin},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year      = {2021}
+}

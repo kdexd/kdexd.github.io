@@ -1,0 +1,6 @@
+@inproceedings{vedantam2019probnmn,
+    title     = {{Probabilistic Neural-symbolic Models for Interpretable Visual Question Answering}},
+    author    = {Ramakrishna Vedantam and Karan Desai and Stefan Lee and Marcus Rohrbach and Dhruv Batra and Devi Parikh},
+    booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
+    year      = {2019}
+}
