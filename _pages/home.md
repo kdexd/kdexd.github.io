@@ -12,7 +12,7 @@ permalink: "/"
   -->
   <div class="col-sm-4 col-xs-12"><img alt="{{ site.author.name }}" id="display-pic" src="/static/img/kd1.jpeg"></div>
   <div class="col-sm-8 col-xs-12">
-    <p>I am building something new in a stealth startup.</p>
+    <p>Building <a href="//worldlabs.ai">World Labs</a> from the ground up.</p>
     <p>
       I finished my PhD in Computer Science at the University of Michigan in May 2024,
       advised by <a href="//web.eecs.umich.edu/~justincj/">Justin Johnson</a>.
