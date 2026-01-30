@@ -7,27 +7,76 @@ permalink: "/"
   <div class="col-12">
     <h1 style="text-align: center; margin: 1em">{{ site.title }}</h1>
   </div>
-  <!--
-      Display picture and bio
-  -->
-  <div class="col-sm-4 col-xs-12"><img alt="{{ site.author.name }}" id="display-pic" src="/static/img/kd1.jpeg"></div>
-  <div class="col-sm-8 col-xs-12">
-    <p>Building <a href="//worldlabs.ai">World Labs</a> from the ground up.</p>
-    <p>
-      I finished my PhD in Computer Science at the University of Michigan in May 2024,
-      advised by <a href="//web.eecs.umich.edu/~justincj/">Justin Johnson</a>.
-      I do computer vision, and these days I spend most of my time in building high-quality datasets.
-      My PhD thesis, titled <a href="https://deepblue.lib.umich.edu/handle/2027.42/193220">Language Supervision for Computer Vision</a>, is available publicly.
-      <span style="color:#FFFFFF">In my free time, I love rickrolling all my friends.</span>
-    </p>
-    <p>
-      Feel free to say hi: <b>kdexd at umich dot edu</b>
-      <br />
+  <div class="col-sm-4 col-xs-12">
+    <img alt="{{ site.author.name }}" id="display-pic" src="/static/img/kd1.jpeg">
+    <br />
+    <p style="text-align: center;">
       <a href="{{ site.author.cv }}"><i class="ai ai-cv-square ai-3x"></i></a>
       <a href="//scholar.google.com/citations?user={{ site.author.scholar }}"><i class="ai ai-google-scholar-square ai-3x"></i></a>
       <a href="//github.com/{{ site.author.github }}"><i class="fab fa-github fa-3x"></i></a>
       <a href="//twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter fa-3x"></i></a>
     </p>
+
+  </div>
+  <div class="col-sm-8 col-xs-12">
+    <p>
+    I am a founding member at <a href="https://worldlabs.ai">World Labs</a>.
+    I curate petabyte-scale datasets and train large diffusion models that power <a href="https://worldlabs.ai/blog/marble-world-model">Marble</a>,
+    our first product allowing users to generate, edit, and export 3D worlds.
+    My data work has also shaped the pre-training strategy of <a href="https://worldlabs.ai/blog/rtfm">RTFM</a>, our research on Real-Time Frame Models.
+    </p>
+    <p>
+    I finished my PhD in Computer Science at the University of Michigan in May 2024, advised by <a href="https://web.eecs.umich.edu/~justincj/">Justin Johnson</a>.
+    My PhD work centered on visual representation learning, vision-language models, and image segmentation.
+    I feel glad to have enjoyed working on these topics in academia back then,
+    before they became mainstream in the current wave of Gen AI products since the virality of ChatGPT release in 2022.
+    My thesis, titled <a href="https://deepblue.lib.umich.edu/handle/2027.42/193220">Language Supervision for Computer Vision</a>, is available publicly.
+    </p>
+    <p>
+    These days, my favorite pockets of time at work and in personal projects are with data.
+    I enjoy the process of iteratively growing web-scale datasets, increasing their quality density by hand-designing data transforms to filter or select samples to better train generative models.
+    I like figuring out interesting methods to curate data, be it from the internet or by manually recording videos.
+    I like creating scrappy and bespoke web interfaces to manually hand-annotate samples or to simply eyeball data for hours to soak the vibes.
+    During and before my PhD, I worked on three dataset projects: <a href="https://nocaps.org">nocaps</a>, <a href="https://redcaps.xyz">RedCaps</a>, and <a href="https://cocorem.xyz">COCO-ReM</a>. For the last one, I manually inspected and refined nearly 40,000 segmentation masks to ensure high quality. Those few days were very exhausting, yet very satisfying.
+    </p>
+    <span style="color:#FFFFFF">In my free time, I love rickrolling all my friends.</span>
+  </div>
+</div>
+
+<!-- --------------------------------------------------------------------- -->
+<hr />
+
+<div class="row">
+  <div class="col">
+    <h2>Selected Blogs</h2>
+  </div>
+</div>
+
+<div class="card-row row">
+  <div class="col-sm-6 col-xs-12">
+    <a href="//worldlabs.ai/blog/marble-world-model">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+        <source src="https://wlt-ai-cdn.art/videos/2025-11-12-clean-720p-24crf/hero.mp4" type="video/mp4">
+      </video>
+    </a>
+    <span class="card-title"><a href="//worldlabs.ai/blog/marble-world-model">Marble: A Multimodal World Model</a></span>
+    <br />
+    <span class="card-desc">
+      World Labs' first product to generate 3D worlds from text, images, videos, and 3D layouts.
+      Users can interactively edit and export as Gaussian splats, meshes, and videos.
+    </span>
+  </div>
+  <div class="col-sm-6 col-xs-12">
+    <a href="//worldlabs.ai/blog/rtfm">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+        <source src="https://wlt-ai-cdn.art/videos/2025-10-15/hero_video_1024x576.mp4" type="video/mp4">
+      </video>
+    </a>
+    <span class="card-title"><a href="//worldlabs.ai/blog/rtfm">RTFM: A Real-Time Frame Model</a></span>
+    <br />
+    <span class="card-desc">
+      Research work on generating interactive video in real-time conditioned on images as spatial memory.
+    </span>
   </div>
 </div>
 
@@ -37,6 +86,24 @@ permalink: "/"
 <div class="row">
   <div class="col">
     <h2>Selected Publications</h2>
+  </div>
+</div>
+
+<!-- COCO-ReM -->
+<div class="card-row row">
+  <div class="col-sm-4 col-xs-12"><img src="/static/paper-figs/Slide8.jpeg" alt="cocorem" /></div>
+  <div class="col-sm-8 col-xs-12">
+    <span class="card-title">Benchmarking Object Detectors with COCO: A New Path Forward</span>
+    <br />
+    <span class="card-desc">
+      Shweta Singh, Aayan Yadav, Jitesh Jain, Humphrey Shi, Justin Johnson, <b>Karan Desai</b>
+    </span>
+    <br />
+    <span><b>ECCV 2024</b></span>
+    <a class="paper-link" href="//arxiv.org/abs/2403.18819">paper</a>
+    <a class="paper-link" href="/static/bibliography/cocorem_bibtex.txt">bibtex</a>
+    <a class="paper-link" href="//github.com/kdexd/coco-rem">code</a>
+    <a class="paper-link" href="//cocorem.xyz">website</a>
   </div>
 </div>
 
@@ -238,8 +305,8 @@ These are my humble beginnings, I try to keep them functional over the years!
         icons[i].style.color = colors[id];
       }
 
-      // Change every 5 seconds.
-      setTimeout("dpCycler()", 5000);
+      // Change every 10 seconds.
+      setTimeout("dpCycler()", 10000);
   }
   window.onload = dpCycler;
 

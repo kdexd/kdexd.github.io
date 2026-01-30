@@ -1,0 +1,6 @@
+@inproceedings{singh2024cocorem,
+  title={{Benchmarking Object Detectors with COCO: A New Path Forward}},
+  author={Singh, Shweta and Yadav, Aayan and Jain, Jitesh and Shi, Humphrey and Johnson, Justin and Desai, Karan},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024}
+}
