@@ -1,7 +1,6 @@
 // Font sizes
 $line-height: 1.5em;
 $card-title-fs: 1.3em;
-$card-desc-fs: 1.05em;
 
 // Build Variables, don't touch
 $max-width: 1000px;
@@ -61,9 +60,16 @@ img {
     font-weight: 600;
 }
 
-.card-desc {
-    font-size: $card-desc-fs;
-    margin-top: 2em;
+.card-subtitle {
+    font-size: 1.05em;
+}
+
+.card-summary {
+    font-size: 0.95em;
+    font-style: italic;
+    color: #555;
+    display: block;
+    margin-top: 0.5em;
 }
 
 .paper-link {
