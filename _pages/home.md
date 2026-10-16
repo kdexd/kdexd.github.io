@@ -23,9 +23,9 @@ permalink: "/"
   <div class="col-sm-8 col-xs-12">
     <p>
     I am a founding member at <a href="https://worldlabs.ai">World Labs</a>.
-    I curate petabyte-scale datasets and train large diffusion models that power <a href="https://worldlabs.ai/blog/marble-world-model">Marble</a>,
-    our first product allowing users to generate, edit, and export 3D worlds.
-    My data work has also shaped the pre-training strategy of <a href="https://worldlabs.ai/blog/rtfm">RTFM</a>, our research on Real-Time Frame Models.
+    I work on curating petabyte-scale data as well as model pre-training for <a href="https://www.worldlabs.ai/blog/atlas">Atlas</a>, our camera-conditioned generative model.
+    In the past, I have also contributed to earlier generation models powering <a href="https://worldlabs.ai/blog/marble-world-model">Marble</a>.
+    <a href="https://www.worldlabs.ai/blog/amd-announcement">World Labs is joining AMD</a>, I will be starting my new role soon.
     </p>
     <p>
     I finished my PhD in Computer Science at the University of Michigan in May 2024, advised by <a href="https://web.eecs.umich.edu/~justincj/">Justin Johnson</a>.
@@ -35,11 +35,13 @@ permalink: "/"
     My thesis, titled <a href="https://deepblue.lib.umich.edu/handle/2027.42/193220">Language Supervision for Computer Vision</a>, is available publicly.
     </p>
     <p>
-    These days, my favorite pockets of time at work and in personal projects are with data.
-    I enjoy the process of iteratively growing web-scale datasets, increasing their quality density by hand-designing data transforms to filter or select samples to better train generative models.
+    These days, my favorite pockets of time at work are working with data.
+    I enjoy the process of iteratively growing large multimodal datasets, increasing their quality density by hand-designing data transforms to filter or select samples to better train generative models.
     I like finding simple ways to source data, be it from the internet or by manually recording videos.
-    I like vibe coding web interfaces to manually hand-annotate samples or to simply eyeball thousands of images.
-    During and before my PhD, I worked on three dataset projects: <a href="https://nocaps.org">nocaps</a>, <a href="https://redcaps.xyz">RedCaps</a>, and <a href="https://cocorem.xyz">COCO-ReM</a>. For the last one, I manually inspected and refined nearly 40,000 segmentation masks to ensure high quality. Those few days were very exhausting, yet very satisfying.
+    I like vibe coding bespoke web interfaces to manually hand-annotate samples or to simply eyeball thousands of images.
+    Sometimes, I sit down and eyeball tens of thousands of images and video clips to verify quality and correctness;
+    in my opinion, improving data quality is the best bang for the buck to improve generative models.
+    This process is exhausting, yet very satisfying.
     </p>
     <span style="color:#FFFFFF">In my free time, I love rickrolling all my friends.</span>
   </div>
@@ -56,6 +58,19 @@ permalink: "/"
 
 <div class="card-row row">
   <div class="col-sm-6 col-xs-12">
+    <a href="//worldlabs.ai/blog/atlas">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
+        <source src="https://wlt-ai-cdn.art/atlas/assets-0831/hero/optimized/atlas-1080.mp4" type="video/mp4">
+      </video>
+    </a>
+    <span class="card-title"><a href="//worldlabs.ai/blog/atlas">Atlas: A World Model for Spatial Intelligence</a></span>
+    <br />
+    <span class="card-summary">
+      World Labs' next-generation world model that renders consistent scenes from any camera path you specify,
+      filling in regions that no camera ever saw.
+    </span>
+  </div>
+  <div class="col-sm-6 col-xs-12">
     <a href="//worldlabs.ai/blog/marble-world-model">
       <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
         <source src="https://wlt-ai-cdn.art/videos/2025-11-12-clean-720p-24crf/hero.mp4" type="video/mp4">
@@ -66,19 +81,6 @@ permalink: "/"
     <span class="card-summary">
       World Labs' first product to generate 3D worlds from text, images, videos, and 3D layouts.
       Users can edit and export as Gaussian splats, meshes, and videos.
-    </span>
-  </div>
-  <div class="col-sm-6 col-xs-12">
-    <a href="//worldlabs.ai/blog/rtfm">
-      <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px;">
-        <source src="https://wlt-ai-cdn.art/videos/2025-10-15/hero_video_1024x576.mp4" type="video/mp4">
-      </video>
-    </a>
-    <span class="card-title"><a href="//worldlabs.ai/blog/rtfm">RTFM: A Real-Time Frame Model</a></span>
-    <br />
-    <span class="card-summary">
-      Research work on generating video in real-time based on user interactions,
-      treating sets of posed images as spatial memory for conditioning.
     </span>
   </div>
 </div>
@@ -321,6 +323,10 @@ These are my humble beginnings.
     </span>
   </div>
 </div>
+
+<hr>
+
+<p class="last-updated">Last updated: October 8, 2026</p>
 
 <script>
   // ------------------------------------------------------------------
